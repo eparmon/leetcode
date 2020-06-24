@@ -12,4 +12,5 @@ public class SolutionTest {
         Assertions.assertArrayEquals(new int[]{0, 1, 9, 16, 100}, 
                 solution.sortedSquares(new int[]{-4, -1, 0, 3, 10}));
     }
+
 }
