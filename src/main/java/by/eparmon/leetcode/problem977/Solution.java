@@ -3,6 +3,7 @@ package by.eparmon.leetcode.problem977;
 /**
  * Given an array of integers nums sorted in non-decreasing order, return an
  * array of the squares of each number, also in sorted non-decreasing order.
+ *
  * https://leetcode.com/problems/squares-of-a-sorted-array/
  */
 public class Solution {

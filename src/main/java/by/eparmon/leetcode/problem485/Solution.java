@@ -2,7 +2,8 @@ package by.eparmon.leetcode.problem485;
 
 /**
  * Given a binary array, find the maximum number of consecutive 1s in this
- * array. 
+ * array.
+ *
  * https://leetcode.com/problems/max-consecutive-ones/
  */
 public class Solution {
