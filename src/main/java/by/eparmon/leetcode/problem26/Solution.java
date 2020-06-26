@@ -22,7 +22,6 @@ public class Solution {
             }
             l++;
             nums[l] = nums[r];
-            
         }
         return l + 1;
     }
