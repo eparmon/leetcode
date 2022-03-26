@@ -1,4 +1,4 @@
-package by.eparmon.leetcode.datastructures.linkedlist;
+package by.eparmon.leetcode.datastructures.linkedlist.problem707;
 
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
