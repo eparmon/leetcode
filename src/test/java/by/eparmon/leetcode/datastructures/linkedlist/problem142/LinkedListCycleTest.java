@@ -1,5 +1,6 @@
 package by.eparmon.leetcode.datastructures.linkedlist.problem142;
 
+import by.eparmon.leetcode.datastructures.linkedlist.ListNode;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
@@ -9,10 +10,10 @@ public class LinkedListCycleTest {
 
     @Test
     public void test1() {
-        var head = new LinkedListCycle.ListNode(3);
-        var node2 = new LinkedListCycle.ListNode(2);
-        var node3 = new LinkedListCycle.ListNode(0);
-        var node4 = new LinkedListCycle.ListNode(-4);
+        var head = new ListNode(3);
+        var node2 = new ListNode(2);
+        var node3 = new ListNode(0);
+        var node4 = new ListNode(-4);
         head.next = node2;
         node2.next = node3;
         node3.next = node4;
@@ -22,8 +23,8 @@ public class LinkedListCycleTest {
 
     @Test
     public void test2() {
-        var head = new LinkedListCycle.ListNode(1);
-        var node2 = new LinkedListCycle.ListNode(2);
+        var head = new ListNode(1);
+        var node2 = new ListNode(2);
         head.next = node2;
         node2.next = head;
         Assertions.assertEquals(head, solution.solve(head));
@@ -31,22 +32,22 @@ public class LinkedListCycleTest {
 
     @Test
     public void test3() {
-        var head = new LinkedListCycle.ListNode(1);
+        var head = new ListNode(1);
         Assertions.assertNull(solution.solve(head));
     }
 
     @Test
     public void test4() {
-        var head = new LinkedListCycle.ListNode(1);
-        var node2 = new LinkedListCycle.ListNode(-7);
-        var node3 = new LinkedListCycle.ListNode(7);
-        var node4 = new LinkedListCycle.ListNode(-4);
-        var node5 = new LinkedListCycle.ListNode(19);
-        var node6 = new LinkedListCycle.ListNode(6);
-        var node7 = new LinkedListCycle.ListNode(-9);
-        var node8 = new LinkedListCycle.ListNode(-5);
-        var node9 = new LinkedListCycle.ListNode(-2);
-        var node10 = new LinkedListCycle.ListNode(-5);
+        var head = new ListNode(1);
+        var node2 = new ListNode(-7);
+        var node3 = new ListNode(7);
+        var node4 = new ListNode(-4);
+        var node5 = new ListNode(19);
+        var node6 = new ListNode(6);
+        var node7 = new ListNode(-9);
+        var node8 = new ListNode(-5);
+        var node9 = new ListNode(-2);
+        var node10 = new ListNode(-5);
         head.next = node2;
         node2.next = node3;
         node3.next = node4;

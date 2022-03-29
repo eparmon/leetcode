@@ -1,5 +1,7 @@
 package by.eparmon.leetcode.datastructures.linkedlist.problem141;
 
+import by.eparmon.leetcode.datastructures.linkedlist.ListNode;
+
 /**
  * Given head, the head of a linked list, determine if the linked list has a cycle in it.
  * <p>
@@ -29,17 +31,6 @@ public class LinkedListCycle {
             }
         }
         return false;
-    }
-
-    public static class ListNode {
-
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-
     }
 
 }

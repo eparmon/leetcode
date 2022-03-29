@@ -1,5 +1,7 @@
 package by.eparmon.leetcode.datastructures.linkedlist.problem142;
 
+import by.eparmon.leetcode.datastructures.linkedlist.ListNode;
+
 /**
  * Given the head of a linked list, return the node where the cycle begins. If there is no cycle, return null.
  * <p>
@@ -81,17 +83,6 @@ public class LinkedListCycle {
             }
         }
         return false;
-    }
-
-    public static class ListNode {
-
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-
     }
 
 }

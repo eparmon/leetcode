@@ -1,5 +1,7 @@
 package by.eparmon.leetcode.datastructures.linkedlist.problem160;
 
+import by.eparmon.leetcode.datastructures.linkedlist.ListNode;
+
 /**
  * Given the heads of two singly linked-lists headA and headB, return the node at which the two lists intersect. If the
  * two linked lists have no intersection at all, return null.
@@ -46,17 +48,6 @@ public class IntersectionOfTwoLinkedLists {
             count++;
         }
         return count;
-    }
-
-    public static class ListNode {
-
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-
     }
 
 }

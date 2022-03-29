@@ -1,5 +1,9 @@
 package by.eparmon.leetcode.datastructures.linkedlist.problem19;
 
+import by.eparmon.leetcode.datastructures.linkedlist.ListNode;
+
+import java.util.Objects;
+
 /**
  * Given the head of a linked list, remove the nth node from the end of the list and return its head.
  * <p>
@@ -26,7 +30,7 @@ public class RemoveNthNodeFromEndOfList {
             if (front != null) {
                 back = oldFront;
             } else {
-                removeNextNode(back);
+                removeNextNode(Objects.requireNonNull(back));
                 return head;
             }
         }
@@ -44,17 +48,6 @@ public class RemoveNthNodeFromEndOfList {
             }
         }
         return node;
-    }
-
-    public static class ListNode {
-
-        int val;
-        ListNode next;
-
-        ListNode(int x) {
-            val = x;
-        }
-
     }
 
 }
