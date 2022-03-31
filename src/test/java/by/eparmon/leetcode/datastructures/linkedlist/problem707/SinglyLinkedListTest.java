@@ -3,18 +3,18 @@ package by.eparmon.leetcode.datastructures.linkedlist.problem707;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 
-public class MyLinkedListTest {
+public class SinglyLinkedListTest {
 
     @Test
     public void test1() {
-        var linkedList = new MyLinkedList();
+        var linkedList = new SinglyLinkedList();
         linkedList.addAtTail(1);
         Assertions.assertEquals(1, linkedList.get(0));
     }
 
     @Test
     public void test2() {
-        var linkedList = new MyLinkedList();
+        var linkedList = new SinglyLinkedList();
         linkedList.addAtHead(2);
         linkedList.deleteAtIndex(1);
         linkedList.addAtHead(2);
@@ -30,7 +30,7 @@ public class MyLinkedListTest {
 
     @Test
     public void test3() {
-        var linkedList = new MyLinkedList();
+        var linkedList = new SinglyLinkedList();
         linkedList.addAtTail(1);
         linkedList.addAtTail(3);
         Assertions.assertEquals(3, linkedList.get(1));

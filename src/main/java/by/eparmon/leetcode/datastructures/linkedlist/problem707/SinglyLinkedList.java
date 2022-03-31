@@ -21,13 +21,9 @@ package by.eparmon.leetcode.datastructures.linkedlist.problem707;
  * <p>
  * <a href="https://leetcode.com/problems/design-linked-list/">Leetcode</a>
  */
-public class MyLinkedList {
+public class SinglyLinkedList {
 
     private Node head;
-
-    public MyLinkedList() {
-
-    }
 
     public int get(int index) {
         Node node = getNode(index);
